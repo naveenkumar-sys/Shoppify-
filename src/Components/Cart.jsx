@@ -47,7 +47,7 @@ const Cart = ({ id, handleRemoveCart }) => {
                     {ele.description}
                   </p>
                 </div>
-                <div className="flex justify-between p-4">
+                <div className="flex justify-between p-2">
                   <p className="text-lg font-semibold">${ele.price}</p>
                   <button
                     className="text-white bg-linear-to-r from-red-400 via-red-500 to-red-600 hover:bg-linear-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800   font-medium rounded-md text-sm px-2 py-1.5 text-center leading-5"

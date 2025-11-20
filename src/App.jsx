@@ -16,7 +16,7 @@ const App = () => {
   const handleClick = (newId) => {
     // console.log(id);
     if (id.includes(newId)) {
-      alert("This Item  is already added in Cart");
+      alert("This Item  is already added in Cart 😓🙄!");
     } else {
       setCount((count) => count + 1);
       setId((prev) => [...prev, newId]);
